@@ -232,42 +232,82 @@
 
       <!-- Footer -->
 
-      <footer class="text-gray-600 body-font bg-veryDarkBlue">
-        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a href="#" class="flex title-font  items-center md:justify-start justify-center text-gray-900">
-            <div>
-            <img src="img/logo-white.svg" class="h-7" alt="" />
+      <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <!-- Logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start mx-2"
+        >
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2023, All Rights Reserved
           </div>
-          </a>
-          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2023 manage
-          </p>
-          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a href="#" class="text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
+          <!-- Logo -->
+          <div>
+            <img src="img/logo-white.svg" class="h-8" alt="" />
+          </div>
+          <!-- Social Links Container -->
+          <div class="flex justify-center space-x-4">
+            <!-- Link 1 -->
+            <a href="#">
+              <img src="img/icon-facebook.svg" alt="" class="h-8" />
             </a>
-            <a href="#" class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
+            <!-- Link 2 -->
+            <a href="#">
+              <img src="img/icon-youtube.svg" alt="" class="h-8" />
             </a>
-            <a href="#" class="ml-3 text-gray-500">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-              </svg>
+            <!-- Link 3 -->
+            <a href="#">
+              <img src="img/icon-twitter.svg" alt="" class="h-8" />
             </a>
-            <a href="#" class="ml-3 text-gray-500">
-              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
-              </svg>
+            <!-- Link 4 -->
+            <a href="#">
+              <img src="img/icon-pinterest.svg" alt="" class="h-8" />
             </a>
-          </span>
+            <!-- Link 5 -->
+            <a href="#">
+              <img src="img/icon-instagram.svg" alt="" class="h-8" />
+            </a>
+          </div>
         </div>
-      </footer>
+        <!-- List Container -->
+        <div class="flex justify-around space-x-32 mx-3">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightGreen">Home</a>
+            <a href="#" class="hover:text-brightGreen">Pricing</a>
+            <a href="#" class="hover:text-brightGreen">About</a>
+          </div>
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightGreen">Community</a>
+            <a href="#" class="hover:text-brightGreen">Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- Input Container -->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Updated in your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightGreen hover:bg-brightGreenLight focus:outline-none"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2023, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
       <script src="js/script.js"></script> 
 </body>
 </html>
